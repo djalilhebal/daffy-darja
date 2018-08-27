@@ -25,7 +25,7 @@ I dedicate this junk to nobody.
 ## Concepts
 - **Crowdsourcing**
 - **Gamification** (competitive)
-- **Xenophobia**, **outgroup hostility** (and mockery)
+- **Xenophobia**, **regionalism**, **outgroup hostility** (and mockery)
 - **Languagism**
 - **Self-representation** (and pride)
 
