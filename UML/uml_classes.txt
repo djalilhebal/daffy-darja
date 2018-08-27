@@ -1,0 +1,25 @@
+User
+----
+-id: string
+-pass: string
+-name: string
+-photo: string
+-gender: char
+-birth year: int
+-wilaya: int
+---
++setName
++setPhoto
+
+
+Sentence
+--------
+id: string
+text: string
+translations: <Translation>
+
+	Translation
+	-----------
+	id: string
+	userId: string
+	text: string
