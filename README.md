@@ -1,7 +1,5 @@
 # Daffy Darja
-What's the weirdest Wilaya's way of talking? [DRAFT] [JOKE]
-
-[Learning UML]
+What's the weirdest Wilaya's way of talking? [DRAFT] [JOKE] [Learning UML]
 
 I really don't know what the hell I'm doing. This shit doesn't sound very boring/serious/academic, I'm doing it wrong OvO
 
