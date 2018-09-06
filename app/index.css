@@ -1,0 +1,15 @@
+.english {
+    background: black;
+    margin-bottom: 10px;
+}
+
+.darja {
+    background: purple;
+    margin: 5px;
+}
+
+.wilaya {
+    vertical-align: super;
+    font-size: small;
+    font-style: italic;
+}
