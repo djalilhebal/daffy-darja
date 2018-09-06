@@ -5,6 +5,7 @@ I really don't know what the hell I'm doing. This shit doesn't sound very boring
 
 
 <br>
+
 ## Title Page
 **Gamification**
 
@@ -21,11 +22,13 @@ Posted in fulfillment of the requirements for the degree of Master in Meaningles
 
 
 <br>
+
 ## Abstract
 Due to the pervasive anti-intellectualism in Algeria, relying on the Algerian community's serious collaboration to do anything serious is hopeless. In *My Mean Memoir*, I propose directing Algerians' primitiveness towards building a useless dataset. This data can be used in sociolinguistic research, machine translation, and other Natural Language Processing tasks.
 
 
 <br>
+
 ## Acknowledgment/Dedication
 First and foremost, I have to thank Shinedown for giving me the *Energy* to be a proud *Outcast*, for teaching me to *Sin with a Grin*, and for teaching me that being unapologetic is all what one needs to succeed in life.
 
@@ -35,6 +38,7 @@ I dedicate this junk to nobody.
 
 
 <br>
+
 ## Quote
 ```
 You think that by crying to me
@@ -51,6 +55,7 @@ That the darkest hour never comes in the night
 
 
 <br>
+
 ## Contents
 - Abstract
 - Acknowledgment
@@ -59,6 +64,7 @@ That the darkest hour never comes in the night
 
 
 <br>
+
 ## Concepts
 - **Crowdsourcing**
 - **Gamification** (competitive)
@@ -70,6 +76,7 @@ Just 'Wikipedia' them for God's sake!
 
 
 <br>
+
 ## Existing Works
 **The Google Translate Community** uses crowd-sourcing to improve its translations. Users gain points by adding translations or judging others'.
 
@@ -80,6 +87,7 @@ Just 'Wikipedia' them for God's sake!
 
 
 <br>
+
 ## Introduction
 It all started after I've finished reading a friend's memoir, and done scratching this unreadable shit:
 
@@ -97,6 +105,7 @@ The whole point is to provoke Algerians to show off their cool ways of talking, 
 
 
 <br>
+
 ## System Design
 ### "They Talk Like This"
 Browsing English sentences (automatically sorted, or filtered by *tags*), users can **add translations** (Darja); if the Wilaya's number is not specified, the user's Wilaya will be assumed.
@@ -120,6 +129,7 @@ To encourage users to participate and compete, we introduced the "LOLest List": 
 
 
 <br>
+
 ### UML Diagrams
 *Using Microsoft Visio Pro 2016*
 
@@ -140,6 +150,7 @@ Guesser
 
 
 <br>
+
 ## Web API
 All requests are JSON representations that get POSTed to a single entry point (`/api.js`);
 The same goes with responds: In addition, the HTTP code is always `OK`, regardless of the result.
@@ -183,6 +194,7 @@ Software and hardware used:
 
 
 <br>
+
 ## Bibliography/References
 - Brian Mulloy (2012), Web API Design: Crafting Interfaces that Developers Love
 
