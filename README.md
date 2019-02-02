@@ -1,7 +1,7 @@
 # Daffy Darja
-What's the weirdest Wilaya's way of talking? *[DRAFT] [JOKE] [MEMOIR PARODY] [Learning UML, Promises, Vue, Vuetify, and maybe RESTful API]*
+What's the weirdest Wilaya's way of talking? *[DRAFT] [MEMOIR PARODY] [for learning purposes]*
 
-I really don't know what the hell I'm doing. This shit doesn't sound very boring/serious/academic. I must be doing it wrong OvO
+(I really don't know what the hell I'm doing. This shit doesn't sound very boring/serious/academic. I must be doing it wrong OvO)
 
 
 <br>
@@ -13,7 +13,7 @@ I really don't know what the hell I'm doing. This shit doesn't sound very boring
 
 <br>
 
-Djalil "Despair" Dreamski
+Djalil Dreamski
 
 <br>
 
@@ -59,8 +59,14 @@ That the darkest hour never comes in the night
 ## Contents
 - Abstract
 - Acknowledgment
+- Quote
+- Concepts
+- Existing Works
 - Introduction
-- Bibliography
+- System Design
+- Implementation
+- Methodology/Results/Conclusion
+- Bibliography/References
 
 
 <br>
@@ -89,7 +95,7 @@ Just 'Wikipedia' them for God's sake!
 <br>
 
 ## Introduction
-It all started after I've finished reading a friend's memoir, and done scratching this unreadable shit:
+It all started after I finished reading a friend's memoir and scratching this unreadable shit:
 
 *(2018-08-20)*
 
@@ -117,12 +123,12 @@ To stimulate the folks, low quality sentences would be used (that talk about 'lo
 ### "Guess the Wilaya!"
 It serves a similar purpose as 'reactions':
 
-- Given a Darja-English phrase, the user can:
+* Given a Darja-English phrase, the user can:
   - Enter the Wilaya's number
   - Skip if cannot decide
   - Mark as spam
 
-- To make it less boring, score the user's performance
+* To make it less boring, score the user's performance
 
 ### "LOLest List"
 To encourage users to participate and compete, we introduced the "LOLest List": A dynamically updated list of the Wilayas/users/phrases with the most "LOL" reactions.
@@ -131,29 +137,28 @@ To encourage users to participate and compete, we introduced the "LOLest List": 
 <br>
 
 ### UML Diagrams
-*Using Microsoft Visio Pro 2016*
+*Created using Microsoft Visio Pro 2016*
 
-#### Wireframe
+* Wireframe
 ![](UML/uml_wireframe-translator.jpg)
 
-#### Use Cases
-Translator
+* Use Cases
+  - Translator
+  ![](UML/uml_use-case-translator.jpg)
 
-![](UML/uml_use-case-translator.jpg)
-
-Guesser
-
-![](UML/uml_use-case-guesser.jpg)
-
-#### Database
-![](UML/uml_database.jpg)
-
+  - Guesser
+  ![](UML/uml_use-case-guesser.jpg)
 
 <br>
 
+
+## Implementation
+I implemented practically nothing. Ain't good with frameworks.
+
 ## Web API
-All requests are JSON representations that get POSTed to a single entry point (`/api.js`);
-The same goes with responds: In addition, the HTTP code is always `OK`, regardless of the result.
+All requests are JSON representations that get POSTed to a single entry point (`/api.js`); the same goes with responses.
+
+In addition, the HTTP code is always `OK`, regardless of the result.
 
 ```js
 const req = {
@@ -169,9 +174,6 @@ const res = {
   message: 'User or password is not correct'
 }
 ```
-
-## Implementation
-I implemented practically nothing. Ain't good with frameworks.
 
 ### Development tools
 Software and hardware used:
@@ -198,7 +200,7 @@ Software and hardware used:
 ## Bibliography/References
 - Brian Mulloy (2012), Web API Design: Crafting Interfaces that Developers Love
 
-- How to Write Your Thesis.  https://www.ldeo.columbia.edu/~martins/sen_sem/thesis_org.html
+- How to Write Your Thesis. https://www.ldeo.columbia.edu/~martins/sen_sem/thesis_org.html
 
 
 ## License
