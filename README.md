@@ -1,7 +1,7 @@
 # Daffy Darja
 What's the weirdest Wilaya's way of talking? *[DRAFT] [MEMOIR PARODY] [for learning purposes]*
 
-(I really don't know what the hell I'm doing. This shit doesn't sound very boring/serious/academic. I must be doing it wrong OvO)
+(I really don't know what the hell I'm doing. This thing doesn't sound very boring/serious/academic. I must be doing it wrong OvO)
 
 
 <br>
@@ -95,11 +95,7 @@ Just 'Wikipedia' them for God's sake!
 <br>
 
 ## Introduction
-It all started after I finished reading a friend's memoir and scratching this unreadable shit:
-
-*(2018-08-20)*
-
-![](idea-2018-08-20.jpg)
+It all started after I finished reading Abdou's memoir and scratched some unreadable shit in [2018-08-20](idea-2018-08-20.jpg)...
 
 <hr>
 
