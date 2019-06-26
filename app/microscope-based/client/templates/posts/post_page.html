@@ -1,0 +1,17 @@
+<template name="postPage">
+  <div class="post-page page entry">
+    <div class="english">{{title}}</div>
+
+    {{#if currentUser}}
+      {{> commentSubmit}}
+    {{else}}
+      <p>Please log in to add a translation.</p>
+    {{/if}}
+
+    <div class="darjas">
+      {{#each comments}}
+        {{> commentItem}}
+      {{/each}}
+    </div>
+  </div>
+</template>

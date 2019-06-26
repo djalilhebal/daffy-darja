@@ -1,0 +1,13 @@
+{
+  "name": "daffy-darja",
+  "description": "A crowdsourcing app based on Microscope",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "meteor ."
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.4",
+    "meteor-node-stubs": "~0.2.0"
+  }
+}

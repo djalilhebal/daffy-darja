@@ -1,0 +1,10 @@
+<template name="commentSubmit">
+  <form name="comment">
+    <div class="form-group {{errorClass 'body'}}">
+      <input type="text" name="body" id="body" placeholder="How do you say it in Darja?" autocomplete="off"/>
+      <input type="submit" class="add" value="Add" />
+      <div id="info"></div>
+      <span class="help-block">{{errorMessage 'body'}}</span>
+    </div>
+  </form>
+</template>

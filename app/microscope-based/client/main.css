@@ -1,0 +1,116 @@
+#spinner {
+  height: 300px;
+}
+
+.dropdown-menu span {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  line-height: 20px;
+  color: #bbb;
+  white-space: nowrap;
+}
+
+.load-more {
+  display: block;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.05);
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 10px;
+}
+
+.load-more:hover {
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.posts .spinner-container {
+  position: relative;
+  height: 100px;
+}
+
+.jumbotron {
+  text-align: center;
+}
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 100;
+}
+
+@keyframes fadeOut {
+  0% {opacity: 0;}
+  10% {opacity: 1;}
+  90% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.errors {
+  position: fixed;
+  z-index: 10000;
+  padding: 10px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  pointer-events: none;
+}
+.alert {
+  animation: fadeOut 2700ms ease-in 0s 1 forwards;
+  width: 250px;
+  float: right;
+  clear: both;
+  margin-bottom: 5px;
+  pointer-events: auto;
+}
+
+/** KAITO'S **/
+a {text-decoration: none;}
+
+.entry {
+  background: white;
+  color: black;
+  border: 2px solid red;
+  margin: 10px 25px;
+  text-align: center;
+  /*border-radius: 10px;*/
+}
+
+.entry form {margin: 10px;}
+.entry #body {
+  width: 90%;
+  text-align: center;
+  font-size: 20px;
+  height: 40px;
+}
+.entry #add {
+  width: 5%;
+  vertical-align: bottom;
+  font-size: 15px;
+  height: 40px;
+}
+#info {color: gray;text-align: left;}
+
+.english {
+  color: white;
+  background: red;
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+}
+.english i {font-weight: normal;font-size: medium;}
+
+.darjas {color: white;}
+.darja {
+  background: green;
+  text-align: left;
+  margin: 5px 10px;
+  padding: 10px;
+/*border-radius: 20px;*/
+}
+.darja .reactions {float: right;padding: 5px; font-size: 0}
+.darja .reactions button {font-size: 20px}
+.darja .text {font-weight: bold;}
+.darja .info {font-size: small;font-style: italic;font-family: mono;}
+.darja .info .wilaya {font-weight: bold;}

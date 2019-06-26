@@ -1,0 +1,13 @@
+<template name="postSubmit">
+  <form class="main form page">
+    <div class="form-group {{errorClass 'title'}}">
+      <label class="control-label" for="title">Title</label>
+      <div class="controls">
+          <input name="title" id="title" type="text"
+            placeholder="An interesting sentence in English" class="form-control" />
+          <span class="help-block">{{errorMessage 'title'}}</span>
+      </div>
+    </div>
+    <input type="submit" value="Submit" class="btn btn-primary"/>
+  </form>
+</template>
