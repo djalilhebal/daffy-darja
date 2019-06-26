@@ -1,6 +1,6 @@
 // Just a general idea of how things will be
 // in actuality these will be Mongo Collections and Meteor Methods and idk.
-abstract class DaffyDarja {
+abstract class DaffyDarjaAPI {
   private reactions = new Set<Reaction>();
   private englishes = new Set<English>();
   private darjas = new Set<Darja>();
