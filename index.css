@@ -9,12 +9,13 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #57646c;
-  background-image: url("univ-cloudy.jpg");
+  background-image: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 35%, rgba(0,0,0,0.65) 100%), url(univ-cloudy.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  height: 100vh;
 }
 
 a {
@@ -31,7 +32,8 @@ header {
 
 footer {
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
   bottom: 0;
   padding: 1em;
+  width: 100%;
 }
